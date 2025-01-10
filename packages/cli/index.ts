@@ -1,4 +1,3 @@
-export function main() {
-    console.log("mini-cli is running")
-}
-main()
+import { register } from "./src/register"
+
+register()

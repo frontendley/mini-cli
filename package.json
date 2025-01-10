@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev:cli": "pnpm --filter=cli run dev",
+    "dev:cli": "pnpm --filter=mini-cli run dev",
     "lint:es": "eslint ."
   },
   "keywords": [],
