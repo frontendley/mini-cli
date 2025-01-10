@@ -1,0 +1,21 @@
+{
+  "name": "mini-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "types": "./es/index.d.ts",
+  "bin": {
+    "mini-cli": "./bin/mini-cli"
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tsup": "8.3.5"
+  }
+}

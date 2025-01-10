@@ -1,0 +1,21 @@
+{
+  "name": "mini-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:cli": "pnpm --filter=cli run dev",
+    "lint:es": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "typescript": "5.7.3"
+  }
+}
